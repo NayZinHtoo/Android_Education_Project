@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAB977"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textColor="#0C88CC"
+        android:shadowColor="#E0091B"
+        android:padding="20dp"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:gravity="center"
+        android:fontFamily="@font/cc"
+        android:textSize="40sp"
+        android:text="Word Continue Game"/>
+
+    <Button
+        android:id="@+id/btn_single"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_style"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#fff"
+        android:fontFamily="@font/bb"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Single Game"/>
+    <Button
+        android:id="@+id/btn_multigame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_style"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_single"
+        android:textColor="#fff"
+        android:fontFamily="@font/bb"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Multi Game"/>
+
+</RelativeLayout>
