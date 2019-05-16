@@ -4,9 +4,13 @@ import android.content.Context;
 import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.text.SpannableString;
+import android.text.Spanned;
+import android.text.style.ForegroundColorSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.scrollex.R;
@@ -36,14 +40,20 @@ public class PlayGameAdapter extends RecyclerView.Adapter<PlayGameAdapter.MyView
     @Override
     public void onBindViewHolder(@NonNull PlayGameAdapter.MyViewHolder holder, int position) {
 
-        if(subjects.get(position).getName().equals("System")){
-            holder.textname.setTextColor(Color.RED);
+        if(subjects.get(position).getName().equals("System:")){
+            holder.textname.setTextColor(Color.BLUE);
+            holder.peopleImage.setImageResource(R.mipmap.computer);
         }
         else {
             holder.textname.setTextColor(Color.GREEN);
+            holder.peopleImage.setImageResource(R.mipmap.boys);
         }
         holder.textname.setText(subjects.get(position).getName());
-        holder.textsms.setText(subjects.get(position).getText());
+        String txt=subjects.get(position).getText();
+        SpannableString spannableString=new SpannableString(txt);
+        ForegroundColorSpan sg=new ForegroundColorSpan(Color.RED);
+        spannableString.setSpan(sg,txt.length()-1,txt.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        holder.textsms.setText(spannableString);
 
     }
 
@@ -56,8 +66,10 @@ public class PlayGameAdapter extends RecyclerView.Adapter<PlayGameAdapter.MyView
 
 
         TextView textname,textsms;
+        ImageView peopleImage;
          public MyViewHolder(@NonNull View itemView) {
              super(itemView);
+             peopleImage=itemView.findViewById(R.id.peopleImage);
              textname=itemView.findViewById(R.id.idname);
              textsms=itemView.findViewById(R.id.idtxt);
          }

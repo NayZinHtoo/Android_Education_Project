@@ -5,10 +5,54 @@
     android:layout_height="match_parent"
     android:weightSum="10">
 
-    <android.support.v7.widget.CardView
-        android:layout_margin="20dp"
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:layout_weight="1.5"
         android:layout_width="match_parent"
-        android:layout_weight="8.5"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:id="@+id/dd">
+
+        <TextView
+            android:id="@+id/txt_scoreA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/textview_style"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/textview_style"
+            android:gravity="center"
+            android:text="20"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/txt_scoreB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/textview_style"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_weight="7"
         android:layout_height="0dp">
 
             <android.support.v7.widget.RecyclerView

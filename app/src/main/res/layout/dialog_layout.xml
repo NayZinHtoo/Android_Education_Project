@@ -21,6 +21,15 @@ android:padding="10dp">
     android:layout_height="wrap_content"
     android:layout_marginTop="10dp"
     android:background="@drawable/edittext_style"
-    android:hint="Enter text here.."
+    android:hint="Enter name here.."
     android:padding="10dp" />
+    <EditText
+        android:id="@+id/edmin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:background="@drawable/edittext_style"
+        android:hint="Enter seconds here.."
+        android:padding="10dp" />
 </LinearLayout>

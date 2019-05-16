@@ -31,6 +31,7 @@ public class HomeActivity extends Activity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_layout);
+        this.setTitle("Education");
 
 
         btnPlay1=findViewById(R.id.idPlay1);

@@ -47,19 +47,23 @@ public class ChooseGameActivity extends AppCompatActivity {
         alertDialogBuilder.setView(promptView);
 
         final EditText editText = (EditText) promptView.findViewById(R.id.edittext);
+        final EditText edMinutes = (EditText) promptView.findViewById(R.id.edmin);
         // setup a dialog window
         alertDialogBuilder.setCancelable(false)
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
 
                         String name=editText.getText().toString();
+                        String min=edMinutes.getText().toString();
 
-                        if(name.equals("")){
+                        if(name.equals("")&&min.equals("")){
                             editText.setError("Please fill your Name!");
+                            edMinutes.setError("Please fill minutes!");
                         }
                         else {
                             Intent intent = new Intent(getApplicationContext(), PlayingGameActivity.class);
                             intent.putExtra("name",name );
+                            intent.putExtra("min",min);
                             startActivity(intent);
                         }
                     }
