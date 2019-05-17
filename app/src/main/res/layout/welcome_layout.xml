@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00695c">
+
+    <TextView
+        android:id="@+id/txtani1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:shadowColor="#d50000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:fontFamily="@font/cen"
+        android:textSize="50sp"
+        android:text="Welcome From"/>
+
+    <TextView
+        android:id="@+id/txtani2"
+        android:layout_width="wrap_content"
+        android:layout_height="159dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/cc"
+        android:gravity="center"
+        android:shadowColor="#2962ff"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:text="Educational Learning Game"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtani3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:shadowColor="#E0091B"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:layout_gravity="center"
+        android:fontFamily="@font/cc"
+        android:textSize="30sp"
+        android:text="360ed Co,Ltd."/>
+
+</LinearLayout>

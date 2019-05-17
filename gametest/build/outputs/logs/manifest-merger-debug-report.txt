@@ -1,0 +1,139 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:2:70-96
+		INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:2:97-143
+	android:versionCode
+		INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:2:144-184
+supports-screens
+ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:3:3-163
+	android:largeScreens
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:3:78-105
+	android:smallScreens
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:3:21-48
+	android:normalScreens
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:3:49-77
+	android:xlargeScreens
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:3:106-134
+	android:anyDensity
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:3:135-160
+application
+ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:4:3-16:17
+	android:label
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:4:90-122
+	android:icon
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:4:58-89
+	android:banner
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:4:145-182
+	android:theme
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:4:16-57
+	android:isGame
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:4:123-144
+activity#com.nay.gametest.UnityPlayerActivity
+ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:5:5-12:16
+	android:screenOrientation
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:5:48-91
+	android:label
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:5:15-47
+	android:launchMode
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:5:92-123
+	android:hardwareAccelerated
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:5:306-341
+	android:configChanges
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:5:124-305
+	android:name
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:5:342-393
+meta-data#unityplayer.UnityActivity
+ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:11:7-82
+	android:value
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:11:59-79
+	android:name
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:11:18-58
+meta-data#unity.build-id
+ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:13:5-101
+	android:value
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:13:46-98
+	android:name
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:13:16-45
+meta-data#unity.splash-mode
+ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:14:5-69
+	android:value
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:14:49-66
+	android:name
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:14:16-48
+meta-data#unity.splash-enable
+ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:15:5-74
+	android:value
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:15:51-71
+	android:name
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:15:16-50
+uses-feature#0x00020000
+ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:17:3-52
+	android:glEsVersion
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:17:17-49
+uses-permission#android.permission.INTERNET
+ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:18:3-65
+	android:name
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:18:20-62
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:19:3-84
+	android:name
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:19:20-81
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:20:3-97
+	android:required
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:20:70-94
+	android:name
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:20:17-69
+uses-feature#android.hardware.touchscreen
+ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:21:3-88
+	android:required
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:21:61-85
+	android:name
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:21:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:22:3-99
+	android:required
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:22:72-96
+	android:name
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:22:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:23:3-108
+	android:required
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:23:81-105
+	android:name
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml:23:17-80
+uses-sdk
+INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\Android_Education_Project\gametest\src\main\AndroidManifest.xml

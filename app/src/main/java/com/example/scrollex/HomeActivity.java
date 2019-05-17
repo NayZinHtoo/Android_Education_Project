@@ -1,17 +1,22 @@
 package com.example.scrollex;
 
+import android.app.ActionBar;
 import android.app.Activity;
+import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.devs.readmoreoption.ReadMoreOption;
+import com.nay.gametest.UnityPlayerActivity;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -19,7 +24,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-public class HomeActivity extends Activity {
+public class HomeActivity extends AppCompatActivity {
 
     Button btnPlay1,btnPlay2;
     TextView txt1,txt2;
@@ -27,18 +32,30 @@ public class HomeActivity extends Activity {
 
     DatabaseHelper databaseHelper;
 
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+       // System.exit(0);
+        //Toast.makeText(getApplicationContext(),"hi",Toast.LENGTH_LONG).show();
+        // finish();
+        finishAffinity();
+
+
+    }
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_layout);
-        this.setTitle("Education");
 
-
+        getSupportActionBar().setTitle("Education");
         btnPlay1=findViewById(R.id.idPlay1);
         btnPlay2=findViewById(R.id.idPlay2);
 
         txt1=findViewById(R.id.txt1);
         txt2=findViewById(R.id.txt2);
+
 
         databaseHelper=new DatabaseHelper(this);
         File database = getApplicationContext().getDatabasePath(databaseHelper.DBName);
@@ -67,7 +84,8 @@ public class HomeActivity extends Activity {
         btnPlay1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent=new Intent(getApplicationContext(), UnityPlayerActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -78,7 +96,10 @@ public class HomeActivity extends Activity {
                 startActivity(intent);
             }
         });
+
+
     }
+
 
     private boolean copyDatabase(Context context) {
         try {

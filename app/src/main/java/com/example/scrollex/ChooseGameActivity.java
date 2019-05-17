@@ -33,7 +33,8 @@ public class ChooseGameActivity extends AppCompatActivity {
         btnMultiGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"hello",Toast.LENGTH_LONG).show();
+                Intent intent=new Intent(getApplicationContext(),MultiplayActivity.class);
+                startActivity(intent);
             }
         });
     }

@@ -4,11 +4,11 @@
     >
 
     <corners
-        android:bottomLeftRadius="30dp"
-        android:bottomRightRadius="30dp"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
         android:radius="60dp"
-        android:topLeftRadius="30dp"
-        android:topRightRadius="30dp" />
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
 
     <solid android:color="#5595F5" />
 
@@ -21,9 +21,5 @@
     <size
         android:height="60dp"
         android:width="270dp" />
-    <gradient
-        android:angle="180"
-        android:endColor="#95BAF3"
-        android:startColor="#0F5FFF"
-        />
+
 </shape>

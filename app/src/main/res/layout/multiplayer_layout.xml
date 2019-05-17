@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DD76BE74" >
+    
+    
+    <!-- Go to Settings screen -->
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        
+        <ImageView 
+	        android:id="@+id/goToSettings"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="Go to Settings"
+	        android:src="@drawable/wifi_icon"
+	        android:layout_marginBottom="15dp"
+	        android:layout_gravity="center" />
+	    
+	    <TextView 
+	        android:id="@+id/textGoToSettings"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:text="Click the image above to go to Settings and connect your device to others by Wifi-Direct"
+	        android:textSize="16sp"
+	        android:textColor="#000"
+	        android:gravity="center"
+	        android:layout_gravity="center_vertical"/>
+        
+    </LinearLayout>
+    
+    
+    <!-- Go to Chat screen -->
+    
+    <ImageView 
+        android:id="@+id/disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/setChatNameLabel"
+        android:contentDescription="disconnect"
+        android:src="@drawable/disconnect"
+        android:layout_marginBottom="15dp"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"/>
+    
+    <TextView 
+        android:id="@id/setChatNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/setChatName"
+        android:text="Please choose your chat name"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:visibility="gone" />
+    
+    <EditText 
+        android:id="@id/setChatName"
+        android:inputType="textCapWords"
+        android:lines="1"
+        android:maxLength="20"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#ff8800"
+        android:layout_marginTop="15dp"
+        android:visibility="gone" />
+    
+        
+    <Button         
+        android:id="@+id/goToChat"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ff8800"
+        android:textColor="#8800"
+        android:layout_margin="20dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

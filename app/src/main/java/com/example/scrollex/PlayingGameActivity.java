@@ -157,6 +157,7 @@ public class PlayingGameActivity extends AppCompatActivity {
          AlertDialog dialog=new AlertDialog.Builder(this)
                 .setTitle("********")
                 .setMessage("You Win")
+                 .setIcon(R.mipmap.gold)
 
                .setPositiveButton("Restart", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
@@ -200,7 +201,7 @@ public class PlayingGameActivity extends AppCompatActivity {
                         startActivity(intent);
                      }
                  })
-                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setIcon(R.mipmap.gold)
                 .create();
          return dialog;
     }
@@ -208,6 +209,7 @@ public class PlayingGameActivity extends AppCompatActivity {
         AlertDialog dialog=new AlertDialog.Builder(this)
                 .setTitle("********")
                 .setMessage("You Lose")
+                .setIcon(R.mipmap.sliver)
 
                 .setPositiveButton("Restart", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
@@ -252,7 +254,7 @@ public class PlayingGameActivity extends AppCompatActivity {
                         startActivity(intent);
                     }
                 })
-                .setIcon(android.R.drawable.ic_dialog_alert)
+                .setIcon(R.mipmap.sliver)
                 .create();
         return dialog;
     }
