@@ -1,7 +1,6 @@
 package com.example.scrollex;
 
 import android.app.AlertDialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,7 +15,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.scrollex.model.PlayGameAdapter;
+import com.example.scrollex.adapter.PlayGameAdapter;
 import com.example.scrollex.model.Subject;
 
 import java.util.ArrayList;

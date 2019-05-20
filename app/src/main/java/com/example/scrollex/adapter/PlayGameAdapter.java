@@ -1,4 +1,4 @@
-package com.example.scrollex.model;
+package com.example.scrollex.adapter;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -14,6 +14,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.scrollex.R;
+import com.example.scrollex.model.Subject;
 
 import java.util.ArrayList;
 import java.util.List;

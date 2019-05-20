@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information"/>
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/idbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/id_onoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wifi Off"/>
+        <Button
+            android:id="@+id/id_wifidiscover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wifi Discover"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+    <LinearLayout
+        android:id="@+id/idlayoutlistview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#ff88"
+        >
+
+    </ListView>
+    </LinearLayout>
+<android.support.v7.widget.LinearLayoutCompat
+    android:id="@+id/name_inputlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    android:orientation="horizontal">
+    <EditText
+        android:id="@+id/ed_sendmessage"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnMessageSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"/>
+</android.support.v7.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/txt_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Info"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/ed_sendmessage1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnMessageSend1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
